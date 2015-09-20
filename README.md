@@ -16,4 +16,4 @@ A bot written in AutoHotKey to run the reaction test at [www.humanbenchmark.com]
 * There are more ease-of-use keybinding described at the top of the `HumanBenchmarkBot.ahk` file.
 * `Control + Shift + Right mouse click` can be used to get the colour under the mouse pointer, to update the bot if the page colour changes.
 * More tests can be run by either repeating the above process or modifying the `Max` variable within the `HumanBenchmarkBot.ahk` file.
-* My mid-range PC averages around 50ms.
+* My mid-range PC averages around [50ms](http://i.imgur.com/7dhgRFz.png)
