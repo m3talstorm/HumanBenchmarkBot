@@ -1,8 +1,10 @@
 /**
  * @Author: Stuart Bannerman
  * @Date:   2015-08-17 10:05:03
- * @Last Modified by:   sbannerman
- * @Last Modified time: 2015-09-16 12:39:05
+ * @Last Modified by: Stuart Bannerman
+ * @Last Modified time: 2015-09-20 82:15:12
+ * @Repository: https://github.com/m3talstorm/HumanBenchmarkBot/
+ * @License: MIT
  * @Description: A bot written in AutoHotKey to run the reaction test at www.humanbenchmark.com
  */
 
