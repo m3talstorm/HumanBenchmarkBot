@@ -10,10 +10,10 @@
 
 
 ; Standard keybinds
-+^R::Reload      ; Reloads Script - Shift + Controls + R
-+^P::Pause       ; Pauses  Script - Shift + Controls + P
-Ins::Suspend     ; Suspend Script - Insert
-Esc::ExitApp     ; Exit the Script - Escape
++^R::Reload      ; Reloads Script: Control + Shift + R
++^P::Pause       ; (Un)Pauses  Script: Control + Shift + P
+Ins::Suspend     ; Suspend Script: Insert
+Esc::ExitApp     ; Exit the Script: Escape
 
 ; Recommended for performance and compatibility with future AutoHotkey releases.
 #NoEnv
@@ -26,8 +26,8 @@ SetWorkingDir %A_ScriptDir%
 ; Speed up script execution...hopefully: http://ahkscript.org/docs/commands/SetBatchLines.htm
 SetBatchLines -1
 
-; Ctrl + Right mouse button
-^RButton::
+; Control + Shift + Right mouse button
++^RButton::
     ; Get the pixel colour at the mouse position and saves it in the clipboard
     MouseGetPos Xpos, Ypos
     PixelGetColor Colour, %Xpos%, %Ypos%, RGB
@@ -36,8 +36,8 @@ SetBatchLines -1
 
     return
 
-; Ctrl + Left mouse button
-^LButton::
+; Control + Shift + Left mouse button
++^LButton::
 
     Index := 0
     Max := 4
