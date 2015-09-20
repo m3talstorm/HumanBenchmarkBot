@@ -4,7 +4,7 @@ A bot written in AutoHotKey to run the reaction test at [www.humanbenchmark.com]
 
 ## How To:
 
-* [Download the latest release](https://github.com/twbs/bootstrap/archive/v3.3.5.zip) or clone the repo: `https://github.com/m3talstorm/HumanBenchmarkBot.git`.
+* [Download the latest release](https://github.com/m3talstorm/HumanBenchmarkBot/archive/master.zip) or clone the repo: `https://github.com/m3talstorm/HumanBenchmarkBot.git`.
 * Download and install [AutoHotKey](http://ahkscript.org/download/ahk-install.exe)
 * Run the `HumanBenchmarkBot.ahk` file (Windows: right click - run as administrator)
 * Navigate to the [HumanBenchmark website](http://www.humanbenchmark.com/tests/reactiontime)
